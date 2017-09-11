@@ -27,6 +27,7 @@ public class OrmLiteTest {
     DaoManager daoManager;
     Dao<User,Integer> userDao;
 
+
     @Before
     public void setUp(){
         daoManager = new DaoManager(getContext());
